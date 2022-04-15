@@ -7,6 +7,7 @@ import { getToken, getUserInfo } from '@/utils/cache'
 
 // basic routes 基础路由
 const basicRoutes: AppRouteRecordRaw[] = [
+
   {
     path: '/',
     redirect: '/home',
