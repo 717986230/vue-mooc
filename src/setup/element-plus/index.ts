@@ -10,7 +10,6 @@ import {
   ElTable,
   ElTableColumn
 } from 'element-plus'
-
 const components = [
   ElForm,
   ElFormItem,
@@ -22,6 +21,7 @@ const components = [
   ElTableColumn
 ]
 
+debugger
 const plugins = [ElMessage]
 
 export function setupElementPlus (app: App<any>) {
